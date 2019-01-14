@@ -1,0 +1,28 @@
+Board support
+	-> Buutons(API) 
+		-> Buttons
+	-> Graphics LCD(API)
+		-> Graphic LCD
+	-> LED (API)
+		-> LED
+CMSIS
+	-> CORE
+	-> DSP
+	-> RTOS (API)
+		-> Keil RTX
+
+Device
+	-> Startup
+	-> STM32Cube Framework (API)
+		-> Classic
+	-> STM32Cube HAL
+		-> Common
+		-> Cortex
+		-> DMA
+		-> GPIO (Optional?)
+		-> RCC
+		-> SRAM (for video output control)
+
+RTOS
+	-> uC/OS Common
+	-> uC/OS Kernel

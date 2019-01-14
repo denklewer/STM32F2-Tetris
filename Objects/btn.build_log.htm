@@ -1,0 +1,273 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ralph Logan, none, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.15.0
+Toolchain Path:  D:\Program Files\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      UL2CM3.DLL V1.155.8.0
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+D:\Sandbox\keil_btn\btn.uvprojx
+Project File Date:  01/14/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'D:\Program Files\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling main.c...
+compiling Thread.c...
+compiling Button.c...
+compiling Buttons_MCBSTM32F200.c...
+compiling GLCD_Fonts.c...
+compiling GLCD_MCBSTM32F200.c...
+compiling LED_MCBSTM32F200.c...
+compiling RTX_Conf_CM.c...
+compiling stm32f2xx_hal.c...
+compiling stm32f2xx_hal_cortex.c...
+compiling stm32f2xx_hal_dma.c...
+compiling stm32f2xx_hal_dma_ex.c...
+compiling stm32f2xx_hal_gpio.c...
+compiling stm32f2xx_hal_rcc.c...
+compiling stm32f2xx_hal_rcc_ex.c...
+compiling stm32f2xx_hal_sram.c...
+compiling stm32f2xx_ll_fsmc.c...
+assembling startup_stm32f207xx.s...
+compiling system_stm32f2xx.c...
+assembling cpu_a.asm...
+compiling cpu_c.c...
+compiling cpu_core.c...
+compiling lib_ascii.c...
+compiling lib_math.c...
+compiling lib_mem.c...
+compiling lib_str.c...
+assembling os_cpu_a.s...
+compiling os_cpu_c.c...
+compiling os_cfg_app.c...
+compiling os_core.c...
+compiling os_dbg.c...
+compiling os_flag.c...
+compiling os_int.c...
+compiling os_mem.c...
+compiling os_msg.c...
+compiling os_mutex.c...
+compiling os_pend_multi.c...
+compiling os_prio.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_stat.c...
+compiling os_task.c...
+compiling os_tick.c...
+compiling os_time.c...
+compiling os_tmr.c...
+compiling os_var.c...
+linking...
+Program Size: Code=13148 RO-data=6892 RW-data=96 ZI-data=4824  
+".\Objects\btn.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F2xx_DFP.2.7.0.pack
+                Keil::Device:STM32Cube HAL:DMA:1.1.1
+                STMicroelectronics STM32F2 Series Device Support, Drivers and Examples
+   * Component: DMA Version: 1.1.1
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: Classic Version: 1.1.1
+   * Component: Cortex Version: 1.1.1
+   * Component: Common Version: 1.1.1
+   * Component: Startup Version: 2.1.1
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.1.1.pack
+                ARM::CMSIS:DSP:1.5.2
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: DSP Version: 1.5.2
+   * Component: Keil RTX Version: 4.81.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.6.4.0.pack
+                ::Board Support:LED:1.00 (API)
+                Keil MDK-ARM Professional Middleware for ARM Cortex-M based devices
+   * Component: LED Version: 1.00
+   * Component: Graphic LCD Version: 1.00
+   * Component: Buttons Version: 1.00
+   * Component: RTOS Version: 1.0.0
+   * Component: CORE Version: 5.0.2
+   * Component: RCC Version: 1.1.1
+   * Component: GPIO Version: 1.1.1
+   * Component: SRAM Version: 1.1.1
+   * Component: Graphic LCD Version: 2.0.0
+
+Package Vendor: Micrium
+                http://www.micrium.com/cmsis-pack/Micrium.RTOS.1.0.0.pack
+                Micrium.Micrium::RTOS:uC/OS Kernel:uCOS-III:1.0.0
+                Micrium software components
+   * Component: uC/OS Kernel Variant: uCOS-III Version: 1.0.0
+   * Component: uC/OS Common Version: 1.0.0
+   * Component: LED Version: 2.0.0
+   * Component: Buttons Version: 2.0.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\Sandbox\keil_btn\RTE
+  D:\Sandbox\keil_btn\RTE\Device\STM32F207IGHx
+  D:\Sandbox\keil_btn\RTE\RTOS
+  D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include
+  D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\RTOS\RTX\INC
+  D:\Program Files\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Board
+  D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F2xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F2xx\Include
+  D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F2xx_DFP\2.7.0\Drivers\STM32F2xx_HAL_Driver\Inc
+  D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F2xx_DFP\2.7.0\MDK\Boards\Keil\MCBSTM32F200\Common
+  D:\Program Files\Keil_v5\ARM\PACK\Micrium\RTOS\1.0.0\Software\uC-CPU
+  D:\Program Files\Keil_v5\ARM\PACK\Micrium\RTOS\1.0.0\Software\uC-CPU\ARM-Cortex-M3\RealView
+  D:\Program Files\Keil_v5\ARM\PACK\Micrium\RTOS\1.0.0\Software\uC-LIB
+  D:\Program Files\Keil_v5\ARM\PACK\Micrium\RTOS\1.0.0\Software\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView
+  D:\Program Files\Keil_v5\ARM\PACK\Micrium\RTOS\1.0.0\Software\uCOS-III\Source
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil::Device:STM32Cube HAL:DMA:1.1.1
+      Source file:   Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma_ex.c
+      Source file:   Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma.c
+
+   * Component: ::Device:STM32Cube Framework:1.0.0 (API)
+
+   * Component: Keil::Device:STM32Cube Framework:Classic:1.1.1
+      Source file:   MDK\Templates\Src\stm32f2xx_hal_msp.c
+      Include file:  MDK\Templates\Inc\stm32f2xx_hal_conf.h
+      Include file:  MDK\Templates\Inc\main.h
+      Source file:   MDK\Templates\Src\main.c
+      Include file:  CMSIS\Driver\Config\RTE_Device.h
+      Source file:   MDK\Templates\Src\stm32f2xx_it.c
+      Include file:  MDK\Templates\Inc\stm32f2xx_it.h
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex:1.1.1
+      Source file:   Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:Common:1.1.1
+      Include file:  Drivers\STM32F2xx_HAL_Driver\Inc\stm32f2xx_hal.h
+      Source file:   Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal.c
+
+   * Component: Keil::Device:Startup:2.1.1
+      Source file:   Drivers\CMSIS\Device\ST\STM32F2xx\Source\Templates\arm\startup_stm32f207xx.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F2xx\Include\stm32f2xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F2xx_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F2xx_OTP.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F2xx\Source\Templates\system_stm32f2xx.c
+
+   * Component: ARM::CMSIS:DSP:1.5.2
+      Include file:  CMSIS\Include\arm_math.h
+      Library file:  CMSIS\Lib\ARM\arm_cortexM3l_math.lib
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.81.1
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+
+   * Component: ::Board Support:LED:1.00 (API)
+      Include file:  Board\Board_LED.h
+
+   * Component: ::Board Support:Graphic LCD:1.00 (API)
+      Include file:  Board\Board_GLCD.h
+
+   * Component: ::Board Support:Buttons:1.00 (API)
+      Include file:  Board\Board_Buttons.h
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.0.2
+
+   * Component: Keil::Device:STM32Cube HAL:RCC:1.1.1
+      Source file:   Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc.c
+      Source file:   Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO:1.1.1
+      Source file:   Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:SRAM:1.1.1
+      Source file:   Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_ll_fsmc.c
+      Source file:   Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_sram.c
+
+   * Component: Keil.MCBSTM32F200::Board Support:Graphic LCD:2.0.0
+      Source file:   MDK\Boards\Keil\MCBSTM32F200\Common\GLCD_MCBSTM32F200.c
+      Source file:   MDK\Boards\Keil\MCBSTM32F200\Common\GLCD_Fonts.c
+      Include file:  MDK\Boards\Keil\MCBSTM32F200\Common\GLCD_Config.h
+
+   * Component: Micrium.Micrium::RTOS:uC/OS Kernel:uCOS-III:1.0.0
+      Include file:  cfg\app_cfg.h
+      Include file:  cfg\uCOS-III\os_cfg.h
+      Include file:  cfg\uCOS-III\os_cfg_app.h
+      Include file:  Software\uCOS-III\Source\os.h
+      Include file:  Software\uCOS-III\Source\os_type.h
+      Source file:   Software\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_a.s
+      Source file:   Software\uCOS-III\Source\os_cfg_app.c
+      Source file:   Software\uCOS-III\Source\os_core.c
+      Source file:   Software\uCOS-III\Source\os_sem.c
+      Source file:   Software\uCOS-III\Source\os_stat.c
+      Source file:   Software\uCOS-III\Source\os_tick.c
+      Source file:   Software\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_c.c
+      Source file:   Software\uCOS-III\Source\os_var.c
+      Source file:   Software\uCOS-III\Source\os_prio.c
+      Source file:   Software\uCOS-III\Source\os_flag.c
+      Include file:  Software\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h
+      Source file:   Software\uCOS-III\Source\os_int.c
+      Source file:   Software\uCOS-III\Source\os_q.c
+      Source file:   Software\uCOS-III\Source\os_dbg.c
+      Source file:   Software\uCOS-III\Source\os_pend_multi.c
+      Source file:   Software\uCOS-III\Source\os_time.c
+      Source file:   Software\uCOS-III\Source\os_mutex.c
+      Source file:   Software\uCOS-III\Source\os_msg.c
+      Source file:   Software\uCOS-III\Source\os_task.c
+      Source file:   Software\uCOS-III\Source\os_tmr.c
+      Source file:   Software\uCOS-III\Source\os_mem.c
+
+   * Component: Micrium.Micrium::RTOS:uC/OS Common:1.0.0
+      Include file:  Software\uC-LIB\lib_math.h
+      Include file:  Software\uC-LIB\lib_str.h
+      Source file:   Software\uC-LIB\lib_str.c
+      Include file:  Software\uC-CPU\cpu_def.h
+      Include file:  Software\uC-CPU\ARM-Cortex-M3\RealView\cpu.h
+      Include file:  Software\uC-LIB\lib_ascii.h
+      Source file:   Software\uC-LIB\lib_mem.c
+      Include file:  Software\uC-LIB\lib_mem.h
+      Source file:   Software\uC-CPU\ARM-Cortex-M3\RealView\cpu_c.c
+      Include file:  cfg\cpu_cfg.h
+      Include file:  Software\uC-LIB\lib_def.h
+      Source file:   Software\uC-LIB\lib_math.c
+      Include file:  Software\uC-CPU\cpu_cache.h
+      Include file:  Software\uC-CPU\cpu_core.h
+      Source file:   Software\uC-CPU\cpu_core.c
+      Include file:  cfg\lib_cfg.h
+      Source file:   Software\uC-LIB\lib_ascii.c
+      Source file:   Software\uC-CPU\ARM-Cortex-M3\RealView\cpu_a.asm
+
+   * Component: Keil.MCBSTM32F200::Board Support:LED:2.0.0
+      Source file:   MDK\Boards\Keil\MCBSTM32F200\Common\LED_MCBSTM32F200.c
+
+   * Component: Keil.MCBSTM32F200::Board Support:Buttons:2.0.0
+      Source file:   MDK\Boards\Keil\MCBSTM32F200\Common\Buttons_MCBSTM32F200.c
+</pre>
+</body>
+</html>
